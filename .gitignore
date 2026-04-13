@@ -20,9 +20,20 @@ env/
 .DS_Store
 Thumbs.db
 
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
 # Saved models (large binary files)
 outputs/models/*.joblib
 outputs/models/*.pkl
 
+# Generated outputs (reproducible via code)
+outputs/figures/
+outputs/tables/
+
 # Logs (regenerated on each run)
-outputs/logs/run.log
+outputs/logs/
